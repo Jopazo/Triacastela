@@ -1,0 +1,451 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define visible focus styles! 
+:focus {
+	outline: ?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Clearfix */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue-webfont.eot');
+    src: url('bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bebasneue-webfont.woff') format('woff'),
+         url('bebasneue-webfont.ttf') format('truetype'),
+         url('bebasneue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+/* inicio del sitio */
+body{
+	width:auto;
+	height:auto;
+	background-image:url(../img/triacastela.jpg)}
+
+#contenedor{
+	width:1124px;
+	height:600px;
+	margin:auto;
+	margin-top: 100px;}
+
+/* index */
+#barra1{
+	width:430px;
+	height:600px;
+	float: left;
+	margin:0 0px 0px 70px;}
+
+#barra2{
+	width:450px;
+	height:600px;
+	float: left;
+	margin-left:60px;}
+
+.menu{
+	width:500px;
+	height:180px;
+	margin-bottom:6px;}
+	
+#menu-1{
+	width:176px;
+	height:180px;
+	float: left;
+	margin:0 6px 0 0;
+	background-color: rgba(255, 255, 255, 0.6);
+	}
+	
+#menu-1 img:hover{ background-color:#F90;
+	-webkit-transition:all 0.2s ease-out;  /* Chrome y Safari */
+  	-o-transition:all 0.2s ease-out;  /* Opera */
+  	-moz-transition:all 0.2s ease-out;  /* Mozilla Firefox */
+  	-ms-transition:all 0.2s ease-out;   /* Internet Explorer */
+  	transition:all 0.2s ease-out;  /* W3C */
+}
+	
+#menu-2{
+	width:83px;
+	height:180px;
+	float: left;
+	margin:0 6px 0 0;
+	}
+	
+#mision{
+	width:83px;
+	height:86px;
+	background-color: rgba(255, 255, 255, 0.4);}
+
+#mision:hover{ background-color:#F09;
+	-webkit-transition:all 0.2s ease-out;  /* Chrome y Safari */
+  	-o-transition:all 0.2s ease-out;  /* Opera */
+  	-moz-transition:all 0.2s ease-out;  /* Mozilla Firefox */
+  	-ms-transition:all 0.2s ease-out;   /* Internet Explorer */
+  	transition:all 0.2s ease-out;} /* W3C */
+	
+#educacion{
+	width:83px;
+	height:86px;
+	margin-top:6px;
+	background-color: rgba(255, 255, 255, 0.4);}
+
+#educacion:hover{ background-color:#CF0;
+	-webkit-transition:all 0.2s ease-out;  /* Chrome y Safari */
+  	-o-transition:all 0.2s ease-out;  /* Opera */
+  	-moz-transition:all 0.2s ease-out;  /* Mozilla Firefox */
+  	-ms-transition:all 0.2s ease-out;   /* Internet Explorer */
+  	transition:all 0.2s ease-out;  /* W3C */}
+	
+#menu-3{
+	width:186px;
+	height:180px;
+	float: left;
+	margin:0 0px 0 0;}
+
+#proyectos{
+	width:186px;
+	height:86px;
+	background-color: rgba(255, 255, 255, 0.4);}
+
+#proyectos:hover{ background-color:#999;
+	-webkit-transition:all 0.2s ease-out;  /* Chrome y Safari */
+  	-o-transition:all 0.2s ease-out;  /* Opera */
+  	-moz-transition:all 0.2s ease-out;  /* Mozilla Firefox */
+  	-ms-transition:all 0.2s ease-out;   /* Internet Explorer */
+  	transition:all 0.2s ease-out;  /* W3C */}
+
+#asesorias{
+	width:83px;
+	height:86px;
+	float:right;
+	margin-top:-4px;
+	background-color: rgba(255, 255, 255, 0.4);}
+
+#asesorias:hover{ background-color:#CF0;
+	-webkit-transition:all 0.2s ease-out;  /* Chrome y Safari */
+  	-o-transition:all 0.2s ease-out;  /* Opera */
+  	-moz-transition:all 0.2s ease-out;  /* Mozilla Firefox */
+  	-ms-transition:all 0.2s ease-out;   /* Internet Explorer */
+  	transition:all 0.2s ease-out;  /* W3C */}
+
+.menu2{
+	width:500px;
+	height:172px;
+	margin-bottom:6px;}
+	
+#menu-4{
+	width:176px;
+	height:172px;
+	float: left;
+	margin:0 6px 0px 0;
+	}
+
+#menu-4:hover{ background-color:#3CF;
+	-webkit-transition:all 0.2s ease-out;  /* Chrome y Safari */
+  	-o-transition:all 0.2s ease-out;  /* Opera */
+  	-moz-transition:all 0.2s ease-out;  /* Mozilla Firefox */
+  	-ms-transition:all 0.2s ease-out;   /* Internet Explorer */
+  	transition:all 0.2s ease-out;  /* W3C */}
+
+#menu-5{
+	width:83px;
+	height:79px;
+	float: left;
+	margin:0 6px 0px 0;
+	background-color: rgba(255, 255, 255, 0.4);}
+
+#menu-5:hover{ background-color:#CF0;
+	-webkit-transition:all 0.2s ease-out;  /* Chrome y Safari */
+  	-o-transition:all 0.2s ease-out;  /* Opera */
+  	-moz-transition:all 0.2s ease-out;  /* Mozilla Firefox */
+  	-ms-transition:all 0.2s ease-out;   /* Internet Explorer */
+  	transition:all 0.2s ease-out;  /* W3C */}
+	
+#menu-6{
+	width:186px;
+	height:172px;
+	float: left;
+	margin:0 6px 0px 0;}
+	
+#menu-6:hover{ background-color:#3CF;
+	-webkit-transition:all 0.2s ease-out;  /* Chrome y Safari */
+  	-o-transition:all 0.2s ease-out;  /* Opera */
+  	-moz-transition:all 0.2s ease-out;  /* Mozilla Firefox */
+  	-ms-transition:all 0.2s ease-out;   /* Internet Explorer */
+  	transition:all 0.2s ease-out;  /* W3C */}
+
+.menu3{
+	width:500px;
+	height:172px;
+	margin-bottom:6px;}
+
+#menu-7{
+	width: 90px;
+	height:177px;
+	float: left;
+	margin:0 6px 6px 0;}
+
+#vision{
+	width:90px;
+	height:85px;
+	float: left;
+	background-color: rgba(255, 255, 255, 0.4);}
+
+#vision:hover{ background-color:#F09;
+	-webkit-transition:all 0.2s ease-out;  /* Chrome y Safari */
+  	-o-transition:all 0.2s ease-out;  /* Opera */
+  	-moz-transition:all 0.2s ease-out;  /* Mozilla Firefox */
+  	-ms-transition:all 0.2s ease-out;   /* Internet Explorer */
+  	transition:all 0.2s ease-out;  /* W3C */}
+	
+#imagen{
+	width:90px;
+	height:85px;
+	margin-top:6px;
+	float:left;
+	background-color: rgba(255, 255, 255, 0.4);}
+
+#imagen:hover{ background-color:#CF0;
+	-webkit-transition:all 0.2s ease-out;  /* Chrome y Safari */
+  	-o-transition:all 0.2s ease-out;  /* Opera */
+  	-moz-transition:all 0.2s ease-out;  /* Mozilla Firefox */
+  	-ms-transition:all 0.2s ease-out;   /* Internet Explorer */
+  	transition:all 0.2s ease-out;  /* W3C */}
+
+#menu-8{
+	width:169px;
+	height:177px;
+	float: left;
+	margin:0 6px 0px 0;}
+
+#menu-8:hover{ background-color:#3CF;
+	-webkit-transition:all 0.2s ease-out;  /* Chrome y Safari */
+  	-o-transition:all 0.2s ease-out;  /* Opera */
+  	-moz-transition:all 0.2s ease-out;  /* Mozilla Firefox */
+  	-ms-transition:all 0.2s ease-out;   /* Internet Explorer */
+  	transition:all 0.2s ease-out;  /* W3C */}
+	
+#menu-9{
+	width:185px;
+	height:177px;
+	float: left;
+	margin:0 6px 0px 0;
+	}
+
+#equipo{
+	width:90px;
+	height:85px;
+	float:left;
+	background-color: rgba(255, 255, 255, 0.4);}
+
+#equipo:hover{ background-color:#F09;
+	-webkit-transition:all 0.2s ease-out;  /* Chrome y Safari */
+  	-o-transition:all 0.2s ease-out;  /* Opera */
+  	-moz-transition:all 0.2s ease-out;  /* Mozilla Firefox */
+  	-ms-transition:all 0.2s ease-out;   /* Internet Explorer */
+  	transition:all 0.2s ease-out;  /* W3C */}
+
+#blog{
+	width:90px;
+	height:85px;
+	float:right;
+	background-color: rgba(255, 255, 255, 0.4);}
+
+#blog:hover{ background-color:#F09;
+	-webkit-transition:all 0.2s ease-out;  /* Chrome y Safari */
+  	-o-transition:all 0.2s ease-out;  /* Opera */
+  	-moz-transition:all 0.2s ease-out;  /* Mozilla Firefox */
+  	-ms-transition:all 0.2s ease-out;   /* Internet Explorer */
+  	transition:all 0.2s ease-out;  /* W3C */}
+
+#fondos{
+	width:186px;
+	height:86px;
+	float:right;
+	margin-top:6px;
+	background-color: rgba(46, 152, 169, 0.8);}
+
+#fondos:hover{ background-color:#000;
+	-webkit-transition:all 0.2s ease-out;  /* Chrome y Safari */
+  	-o-transition:all 0.2s ease-out;  /* Opera */
+  	-moz-transition:all 0.2s ease-out;  /* Mozilla Firefox */
+  	-ms-transition:all 0.2s ease-out;   /* Internet Explorer */
+  	transition:all 0.2s ease-out;  /* W3C */}
+
+#menu-10{
+	width:455px;
+	height:32px;
+	float:left;
+	background-color: rgba(46, 152, 169, 0.8);
+	margin:0px 0 0 0;}
+
+#menu-10 a{
+	float:left;
+	padding-left: 40px;
+	padding-top:10px;
+	font-family: 'bebas_neueregular'; font-size:15px; color:#fff; text-decoration:none;
+	}
+
+#menu-10 a:hover{
+	color: #000;
+	-webkit-transition:all 0.2s ease-out;  /* Chrome y Safari */
+  	-o-transition:all 0.2s ease-out;  /* Opera */
+  	-moz-transition:all 0.2s ease-out;  /* Mozilla Firefox */
+  	-ms-transition:all 0.2s ease-out;   /* Internet Explorer */
+  	transition:all 0.2s ease-out;  /* W3C */}
+
+#menu-10:hover{ background-color:#F90;
+	-webkit-transition:all 0.2s ease-out;  /* Chrome y Safari */
+  	-o-transition:all 0.2s ease-out;  /* Opera */
+  	-moz-transition:all 0.2s ease-out;  /* Mozilla Firefox */
+  	-ms-transition:all 0.2s ease-out;   /* Internet Explorer */
+  	transition:all 0.2s ease-out;  /* W3C */}
+
+#barra3{
+	width:80px;
+	height:600px;
+	float:left;}
+
+#barra-logo{
+	width:74px;
+	height:204px;
+	padding: 400px 0 0 15px;}
+
+.menu img{
+	float:left;
+	margin:0 0px 6px 0;
+	}
+	
+/* CONCURSOS */
+
+#concursos{
+	width:500px;
+	height:70px;
+	margin-top:130px;}
+
+#concursos h2{
+	 font-family: 'bebas_neueregular'; font-size:40px; color:#FFF;
+	 -webkit-transition:all 0.2s ease-out;  /* Chrome y Safari */
+  	-o-transition:all 0.2s ease-out;  /* Opera */
+  	-moz-transition:all 0.2s ease-out;  /* Mozilla Firefox */
+  	-ms-transition:all 0.2s ease-out;   /* Internet Explorer */
+  	transition:all 0.2s ease-out;  /* W3C */}
+	
+#concursos h2:hover{color:#F90;font-size:45px;}
+
+.informacion{
+	width:500px;
+	height:150px;}
+
+.fecha{width:125px;
+	height:150px;
+	float:left;}
+
+.fecha h2{font-family: 'bebas_neueregular'; font-size:150px; color:#FFF;
+	-webkit-transition:all 0.2s ease-out;  /* Chrome y Safari */
+  	-o-transition:all 0.2s ease-out;  /* Opera */
+  	-moz-transition:all 0.2s ease-out;  /* Mozilla Firefox */
+  	-ms-transition:all 0.2s ease-out;   /* Internet Explorer */
+  	transition:all 0.2s ease-out;  /* W3C */}
+
+.fecha h2:hover{color:#F90;}
+	
+.descripcion{
+	width:300px;
+	height:110px;
+	float:left;
+	padding: 20px 0 0 0;}
+	
+.descripcion h2{font-family: 'bebas_neueregular'; font-size:25px; color:#FFF;
+	-webkit-transition:all 0.2s ease-out;  /* Chrome y Safari */
+  	-o-transition:all 0.2s ease-out;  /* Opera */
+  	-moz-transition:all 0.2s ease-out;  /* Mozilla Firefox */
+  	-ms-transition:all 0.2s ease-out;   /* Internet Explorer */
+  	transition:all 0.2s ease-out;  /* W3C */}
+.descripcion h2:hover{color:#2e98a9;}
+
+.descripcion h3{font-family: 'bebas_neueregular'; font-size:70px; color:#FFF;
+	-webkit-transition:all 0.2s ease-out;  /* Chrome y Safari */
+  	-o-transition:all 0.2s ease-out;  /* Opera */
+  	-moz-transition:all 0.2s ease-out;  /* Mozilla Firefox */
+  	-ms-transition:all 0.2s ease-out;   /* Internet Explorer */
+  	transition:all 0.2s ease-out;  /* W3C */}
+.descripcion h3:hover{color:#2e98a9;}
+
+.info{width:300px;
+	height:20px;
+	float:left;}
+	
+.info a{font-family: 'bebas_neueregular'; font-size:25px; color:#2e98a9; text-decoration:none; margin-left: 50px;
+	-webkit-transition:all 0.2s ease-out;  /* Chrome y Safari */
+  	-o-transition:all 0.2s ease-out;  /* Opera */
+  	-moz-transition:all 0.2s ease-out;  /* Mozilla Firefox */
+  	-ms-transition:all 0.2s ease-out;   /* Internet Explorer */
+  	transition:all 0.2s ease-out;  /* W3C */}
+.info a:hover{color:#000;font-size:30px;}
+
+#mas-cultura{width:500px;
+	height:70px;
+	float:left;
+	padding-top:10px;}
+
+#mas-cultura h2{font-family: 'bebas_neueregular'; font-size:25px; color:#fff; text-decoration:none; margin-bottom: -5px;										-webkit-transition:all 0.3s ease-out;  /* Chrome y Safari */
+  	-o-transition:all 0.3s ease-out;  /* Opera */
+  	-moz-transition:all 0.3s ease-out;  /* Mozilla Firefox */
+  	-ms-transition:all 0.3s ease-out;   /* Internet Explorer */
+  	transition:all 0.3s ease-out;  /* W3C */}
+#mas-cultura h2:hover{font-size:30px;color:#F90;}
+
